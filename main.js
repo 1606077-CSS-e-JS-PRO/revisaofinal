@@ -1,7 +1,7 @@
 
-import "./style/style.scss"
+console.log("arquivo main")
 
-console.log("Funcionou!")
+import "./style/style.scss"
 
 // Evento
 const botaoCadastrar = document.getElementById("botaoCadastrar")
