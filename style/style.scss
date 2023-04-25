@@ -16,9 +16,12 @@ body {
     justify-content: space-between;
 
     &__menu {
+        display: flex;
+        gap: 5px;
+
         a {
             border-radius: 5px;
-            padding: 5px;
+            padding: 8px;
             background-color: $roxo;
             color: white;
             text-decoration: none;
@@ -48,9 +51,39 @@ main {
     &__entrada {
         display: flex;
         flex-direction: column;
-        gap: 2px;
+        gap: 5px;
+
+        input {
+            padding: 5px;
+            border: solid $cinza-medio 2px !important;
+            border-radius: 5px;
+
+            &::placeholder {
+                color: $cinza-medio;
+            }
+        }
+        button {
+            background-color: $cinza-escuro;
+            border-radius: 5px;
+            color: white;
+            border: none;
+            padding: 7px;
+        }
     }
 
     &__saida {
+        .status {
+            text-align: center;
+            padding: 7px;
+            border-radius: 5px;
+            color: white;
+            display: none;
+        }
+        .sucesso {
+            background-color: $sucesso;
+        }
+        .erro {
+            background-color: $erro;
+        }
     }
 }
