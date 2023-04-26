@@ -1,0 +1,35 @@
+
+
+@import "cores";
+
+h2 {
+    margin: 5px;
+}
+
+.container {
+    background-color: $cinza-claro;
+    padding: 20px 30px 20px 30px;
+    border: $cinza-escuro solid 2px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+    &__cabecalho {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+.tabela-global {
+    // border: solid black 1px;
+    border-collapse: collapse;
+
+    td {
+        border: solid $cinza-medio 2px;
+        margin: 0;
+        background-color: white;
+        padding: 5px;
+    }
+}

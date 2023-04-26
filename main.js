@@ -2,6 +2,7 @@
 console.log("arquivo main")
 
 import "./style/style.scss"
+import "./style/gerencia.scss"
 
 // Evento
 const botaoCadastrar = document.getElementById("botaoCadastrar")

@@ -29,11 +29,6 @@ body {
     }
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
 .form-cadastro {
     background-color: $cinza-claro;
     border: $cinza-escuro solid 2px;
@@ -53,15 +48,6 @@ main {
         flex-direction: column;
         gap: 5px;
 
-        input {
-            padding: 5px;
-            border: solid $cinza-medio 2px !important;
-            border-radius: 5px;
-
-            &::placeholder {
-                color: $cinza-medio;
-            }
-        }
         button {
             background-color: $cinza-escuro;
             border-radius: 5px;
@@ -85,5 +71,15 @@ main {
         .erro {
             background-color: $erro;
         }
+    }
+}
+
+input {
+    padding: 5px;
+    border: solid $cinza-medio 2px !important;
+    border-radius: 5px;
+
+    &::placeholder {
+        color: $cinza-medio;
     }
 }
