@@ -19,10 +19,17 @@ h2 {
         display: flex;
         justify-content: space-between;
     }
+
+    max-height: 400px;
 }
 
+.table-container {
+    overflow: auto;
+    border: solid $cinza-medio 3px;
+}
 
 .tabela-global {
+    width: 100%;
     // border: solid black 1px;
     border-collapse: collapse;
 
